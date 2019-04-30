@@ -15,7 +15,7 @@ module.exports = [{
   type: "input",
   required: false,
   message: "Project description",
-  default: "A ZCY React project",
+  default: "A project test-tool",
 },
 {
   name: "author",
