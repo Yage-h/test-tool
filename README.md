@@ -1,4 +1,4 @@
-# test-tool-cli
+# test-tool-temp
 
 > test-tool template
 
