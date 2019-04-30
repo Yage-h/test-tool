@@ -1,12 +1,8 @@
 {
-  "name": "<%= name %>",
+  "name": "test-tool-cli",
   "version": "0.0.1",
-  "description": "<%= description %>",
+  "description": "",
   "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "<%= gitRemote %>"
-  },
   "scripts": {
     "singleTest": "karma start --single-run",
     "test": "karma start",
@@ -33,7 +29,7 @@
     "lint-staged",
     "singleTest"
   ],
-  "author": "<%= author %>",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
