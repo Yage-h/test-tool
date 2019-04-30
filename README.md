@@ -1,4 +1,4 @@
-# test-tool-temp
+# test-tool-template
 
 > test-tool template
 
@@ -6,6 +6,6 @@
 
 ```bash
 $ cd template
-$ npm install
-$ npm run dev
+
+$ karma start
 ```

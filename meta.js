@@ -20,22 +20,11 @@ module.exports = {
       required: true,
       message: 'Project name',
     },
-    cName: {
-      type: 'string',
-      required: true,
-      message: 'Project chinese name',
-      validate: function(text) {
-        if (!text) {
-          return false
-        }
-        return true
-      }
-    },
     description: {
       type: 'string',
       required: false,
-      message: 'Project description',
-      default: 'A ZCY React project',
+      message: 'Project descr\iption',
+      default: 'A Npm test tool',
     },
     author: {
       type: 'string',
