@@ -7,10 +7,9 @@
 
 ## 项目npm命令
 
-- `npm run dev` 启动自动化测试监听
 - `npm run build` 项目编译
 - `npm run test` 测试
-- `karma start` 执行测试用例
+- `karma start` 启动自动化测试监听
 - `npm run lint-fix` eslint fix
 
 
@@ -46,10 +45,17 @@
 <br/>
 <br/>
 
-> 说明:
+> 说明
 
-    1. src下每一个方法占据一个.js文件,由index.js统一导出
-    2. src下每一个方法必须存在test下对应同名测试用例文件
+    1. src文件夹下每一个方法占据一个.js文件, 由index.js统一导出
+    2. src文件夹下每一个方法必须存在test下对应同名测试用例文件
+    3. test文件夹下为src文件夹内每个方法对应的测试用例文件
+
+> commit前校验规则
+
+    1. 自动校验src下的方法是否有对应的同名测试用例文件
+    2. 检测eslint校验是否通过
+    3. 检测测试用例是否全部通过
 
 ## 涉及技术栈
 
