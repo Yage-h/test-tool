@@ -1,6 +1,6 @@
-# test-tool-template
+# karma-autotest-template
 
-> test-tool template
+> karma-autotest template
 
 # Development
 

@@ -1,5 +1,5 @@
 {
-  "name": "test-tool-cli",
+  "name": "karma-autotest-template",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A Webpack Test Project"

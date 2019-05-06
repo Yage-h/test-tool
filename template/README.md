@@ -1,4 +1,4 @@
-# npm-test-tool
+# karma-autotest
 
 > 测试工具脚手架
 
@@ -62,5 +62,6 @@
 - [x] [karma](https://karma-runner.github.io/latest/index.html)
 - [x] [Webpack](https://webpack.github.io)
 - [x] [Babel](https://babeljs.io/)
+- [x] [Eslint](https://cn.eslint.org/)
 
 
